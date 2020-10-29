@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(235, 77, 77);
+}
+
+#container {
+    background-color: #ffffff;
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
+#dice-num p {
+    font-size: 20px;
+}
+
+/* #number-of-dice {
+    font-size: 22px;
+} */
+
+#game-result {
+    font-size: 20px;
+}
+
+#div-score {
+    font-size: 18px;
+}
+
+#div-score #total-score {
+    font-size: 20;
+}
+
+#btn-containers button {
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+}
+
+#btn-containers button:hover {
+    background-color: rgb(235, 77, 77);
+    color: #ffffff;
+    border-radius: 8px;
+    
+}
+
+@media only screen and (max-width: 420px) {
+    #container {
+        width: 75%;
+    }
+    
+    #image {
+        width: 260px;
+        height: autos;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #btn-container button {
+        display: block;
+        margin-top: 10px;
+    }
+}
