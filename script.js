@@ -45,11 +45,11 @@ function rollDice() {
                 break;
         }
         totalScore.textContent = diceCounter;
-        if(rollDiceBtn.style.display === 'none' && diceCounter < 20) {
+        if(rollDiceBtn.style.display === 'none' && diceCounter < 25) {
             gameResult.textContent = 'You loss. Please play again';
         }
-        if(rollDiceBtn.style.display === 'none' && diceCounter >= 20) {
-            gameResult.textContent = 'Hurray!!! You won the game. Play aagin.';
+        if(rollDiceBtn.style.display === 'none' && diceCounter >= 25) {
+            gameResult.textContent = 'Hurray!!! You won the game. Play again.';
         }
     });
 }
